@@ -1,0 +1,25 @@
+{
+  "name": "heroku-backend-tommy",
+  "version": "1.0.0",
+  "description": "Sarasasasas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serves.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "heroku",
+    "test"
+  ],
+  "author": "Tommy",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2",
+    "nodemon": "^2.0.16",
+    "node-sass": "^6.0.1"
+  }
+}
